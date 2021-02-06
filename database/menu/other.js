@@ -21,9 +21,9 @@ const other = (pushname, prefix, botName, ownerName, getLevelingLevel, sender, _
 │➥ *ⁿᵉˣᵗ*
 │➥ *ᵗⁱᵐᵉʳ*
 │➥ *ᵏᵒᵐᵉⁿʸᵗ*
-╰──────────────────
-╭──────────────────
+╰──────────────
+╭──────────────
 │  ʙy ʜᴀʀyᴀᴅɪɴ
-╰──────────────────`
+╰──────────────`
 }
 exports.other = other
