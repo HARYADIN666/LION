@@ -1,5 +1,5 @@
 /*
-]=====> RAMLAN ID <=====[ ]=====> YT RAMLAN CHANNEL <=====[ ]=====> 085559240360 <=====[
+]=====> HARYADIN <=====[
 */
 const {
    WAConnection,
@@ -38,11 +38,11 @@ const { removeBackgroundFromImageFile } = require('remove.bg')
 const { ind } = require('./language')
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:RAMLAN ID\n' 
+            + 'FN:HARYADIN\n' 
             + 'ORG:OWNER BOTZ;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=6285559240360:+62 855-5924-0360\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=6282279601471:+62 822-7960-1471\n' 
             + 'END:VCARD' 
-prefix = '!'
+prefix = '/'
 blocked = []   
 limitawal = 20
 memberlimit = 2
@@ -51,9 +51,9 @@ cr = '*𝐋𝐀𝐍𝐍 𝐁𝐎𝐓𝐙 𝐕𝐄𝐑𝐈𝐅𝐈𝐄𝐃*'
 /*
 ]=====> SETTINGS <=====[
 */
-const ownerNumber = ["6285559240360@s.whatsapp.net","6285559240360@s.whatsapp.net"]
-const botName = '𝐋𝐀𝐍𝐍 𝐁𝐎𝐓𝐙'
-const ownerName = 'RAMLAN ID'
+const ownerNumber = ["6282279601471@s.whatsapp.net","6282279601471@s.whatsapp.net"]
+const botName = '𝐁𝐎𝐓𝐙'
+const ownerName = 'HARYADIN'
 const BarBarKey = 'YOUR_APIKEY'
 const VhtearKey = 'YOUR_APIKEY'
 const TobzKey = 'YOUR_APIKEY'
@@ -249,7 +249,7 @@ const getLevelingXp = (sender) => {
                 }
             })
             if (position !== false) {
-                _limit[position].limit += 1
+                _limit[position].limit += 2
                 fs.writeFileSync('./database/user/limit.json', JSON.stringify(_limit))
             }
         }
@@ -1071,11 +1071,6 @@ break
 case 'sebenarnya':
 	const sebenarnyamp3 = fs.readFileSync('./lagu/sebenarnya.mp3');
 client.sendMessage(from, sebenarnyamp3, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-
-break
-case 'song2':
-	const song2mp3 = fs.readFileSync('./lagu/song2.mp3');
-client.sendMessage(from, song2mp3, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 
 break
 case 'song4':
