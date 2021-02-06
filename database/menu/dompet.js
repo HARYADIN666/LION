@@ -1,6 +1,6 @@
 const dompet = (pushname, prefix, botName, ownerName, getLevelingLevel, sender, _registered) => {
 	return `ᴴᵃˡˡᵒ, ${pushname}
-ꜱɪʟᴀʜᴋᴀʜ ᴩɪʟɪʜ ᴍᴇɴᴜ ᴅɪʙᴀᴡᴀʜ
+ꜱɪʟᴀʜᴋᴀʜ ᴩɪʟɪʜ\nᴍᴇɴᴜ ᴅɪʙᴀᴡᴀʜ
 ╭──────────────
 │  《✰ᴅᴏᴍᴩᴇᴛ✰》
 ╰──────────────
@@ -17,7 +17,7 @@ yᴀɴɢ ᴀᴅᴀ ᴩᴀᴅᴀ ʙᴏᴛ ɪɴɪ.
 │➥ ʟᴇᴠᴇʟ : *ᵇᵘʸˡⁱᵐⁱᵗ*
 ╰──────────────
 ╭──────────────
-│     ʙy ʜᴀʀyᴀᴅɪɴ
+│   ʙy ʜᴀʀyᴀᴅɪɴ
 ╰──────────────`
 }
 exports.dompet = dompet
