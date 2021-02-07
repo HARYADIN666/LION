@@ -275,8 +275,8 @@ client.logger.level = 'warn'
 console.log(banner.string)
    client.on('qr', qr => {
    qrcode.generate(qr, { small: true })
-	console.log(color('🕐','white'), color(' HARYADIN GAMING'))
-})
+	console.log(color('[','white'), color('?','white'), color(']','white'), color('HARYADIN GAMING'))
+   })
 
 client.on('credentials-updated', () => {
 	const authInfo = client.base64EncodedAuthInfo()
