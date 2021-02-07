@@ -46,7 +46,7 @@ prefix = '/'
 blocked = []   
 limitawal = 20
 memberlimit = 2
-cr = '*𝐋𝐀𝐍𝐍 𝐁𝐎𝐓𝐙 𝐕𝐄𝐑𝐈𝐅𝐈𝐄𝐃*'
+cr = '*𝐁𝐎𝐓𝐙*'
 
 /*
 ]=====> SETTINGS <=====[
@@ -275,7 +275,7 @@ client.logger.level = 'warn'
 console.log(banner.string)
    client.on('qr', qr => {
    qrcode.generate(qr, { small: true })
-	console.log(color('[','white'), color('!','red'), color(']','white'), color(' SUBSCRIBE YT RAMLAN CHANNEL'))
+	console.log(color('🕐','white'), color(' HARYADIN GAMING'))
 })
 
 client.on('credentials-updated', () => {
